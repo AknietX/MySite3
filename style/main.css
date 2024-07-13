@@ -17,7 +17,20 @@ body{
     margin: 0 auto;
     padding: 0 250px;
 }
-.h2{
+.about-main>h2{
     text-transform: uppercase;
+    text-align: center;
 }
-
+.text{
+    width: 50%;
+}
+.story{
+    display: flex;
+}
+.port-side{
+    display: flex;
+}
+.about-main{
+    width: 942px;
+    height: 344px;
+}
