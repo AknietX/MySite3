@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
-html{
-    box-sizing: border-box;
-}
-*, *::before, *::after{
-    box-sizing: inherit;
-}
+/* Основной блок */
 body{
     margin: 0;
     font-family: "Open Sans", sans-serif;
@@ -17,20 +12,44 @@ body{
     margin: 0 auto;
     padding: 0 250px;
 }
+
+
+/* About-conteiner */
+.main-cont{
+    text-align: center;
+    padding: 0;
+}
+.port-side{
+    display: flex;
+    justify-content: space-between;
+}
+.about-main{
+    margin-left: 249px;
+    width: 942px;
+    height: 344px;
+}
 .about-main>h2{
     text-transform: uppercase;
     text-align: center;
 }
-.text{
+.about-text{
+    width: 40%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.about-text1{
+    width: 405px;
+    height: 81px;
+    white-space: pre-wrap;
+}
+.about-text2{
+    width: 405;
+    height: 115px;
+    white-space: pre-wrap;
+} 
+.about-img{
     width: 50%;
 }
-.story{
-    display: flex;
-}
-.port-side{
-    display: flex;
-}
-.about-main{
-    width: 942px;
-    height: 344px;
+.about-img2{
+
 }
