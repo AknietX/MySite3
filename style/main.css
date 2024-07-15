@@ -22,18 +22,28 @@ body{
 .port-side{
     display: flex;
     justify-content: space-between;
+    margin-top: 70px;
 }
 .about-main{
     margin-left: 249px;
     width: 942px;
     height: 344px;
+    padding: 0;
 }
-.about-main>h2{
+.about-title1{
     text-transform: uppercase;
     text-align: center;
 }
+.about-title2{
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: 00A4E5;
+    display: block;
+   
+}
 .about-text{
-    width: 40%;
+    width: 45%;
     margin-top: 0px;
     margin-left: 0px;
 }
@@ -48,8 +58,15 @@ body{
     white-space: pre-wrap;
 } 
 .about-img{
-    width: 50%;
+    width: 445px;
+    padding: 0;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 .about-img2{
-
+    width: 460px;
+    padding: 0;
+}
+.about-img2>div{
+    padding: 0;
 }
