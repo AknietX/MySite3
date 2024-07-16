@@ -10,6 +10,7 @@
 /* Основной блок */
 body{
     margin: 0;
+    max-width: 1440px;
 }
 .main-cont {
     width: 100%;
@@ -22,11 +23,10 @@ body{
 
 /* Header-conteiner */
 
-/* Стили для контейнера и текста */
 .header-main{
     font-family: "BebasNeueBold";
     position: relative;
-    text-align: center;
+   
 }
 .text{
     text-transform: uppercase;
@@ -53,7 +53,7 @@ body{
     font-weight: Semibold;
     position: absolute;
     top: 90%;
-    left: 720px;
+    left: 680px;
     transform: translate(-50%, -50%);
     color:#FFFFFF ;
     letter-spacing: 3px;
@@ -63,16 +63,21 @@ body{
 .header-accent{
     letter-spacing: 5.72px;
 }
+.img1{
+    width: 1369.4px;
+
+}
 .inner-image{
     position: absolute;
-    top: 30px; /* Расстояние от верхнего края */
-    right: 600px;
+    top: 30px;
+    right: 630px;
 }
+
 
 
 /* About-conteiner */
 .about-main{
-    margin-left: 249px;
+    margin-left: 205px;
     width: 942px;
     height: 344px;
     padding: 0;
