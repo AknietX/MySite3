@@ -1,34 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url(https://db.onlinewebfonts.com/c/4cb0a725d25db5a5401af8cffa9f3beb?family=BebasNeueBold);
+@media screen and (max-width:1024px){
+    .port-side{
+        flex-wrap: wrap;
+    }
+}
 
 
 /* Основной блок */
 body{
     margin: 0;
-    font-family: "Open Sans", sans-serif;
 }
-.container {
+.main-cont {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 250px;
+    padding: 0;
+    text-align: center;
+}
+
+
+/* Header-conteiner */
+
+/* Стили для контейнера и текста */
+.header-main{
+    font-family: "BebasNeueBold";
+    position: relative;
+    text-align: center;
+}
+.text{
+    text-transform: uppercase;
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+}
+.text2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: Semibold;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#FFFFFF ;
+}
+.text3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+    font-weight: Semibold;
+    position: absolute;
+    top: 90%;
+    left: 720px;
+    transform: translate(-50%, -50%);
+    color:#FFFFFF ;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.header-accent{
+    letter-spacing: 5.72px;
+}
+.inner-image{
+    position: absolute;
+    top: 30px; /* Расстояние от верхнего края */
+    right: 600px;
 }
 
 
 /* About-conteiner */
-.main-cont{
-    text-align: center;
-    padding: 0;
-}
-.port-side{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 80px;
-}
 .about-main{
     margin-left: 249px;
     width: 942px;
     height: 344px;
     padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.port-side{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
 }
 .about-title1{
     text-align: center;
@@ -72,12 +125,14 @@ body{
 .about-text1{
     font-size: 18px;
     white-space: pre-line;
+    color: #48555B;
 }
 .about-text2{
     font-size: small;
     white-space: pre-line;
     padding-bottom: 10px;
     margin-left: 55px;
+    color: #48555B;
 }
 .about-img{
     width: 465px;
