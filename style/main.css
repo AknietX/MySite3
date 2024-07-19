@@ -13,9 +13,8 @@ body{
     max-width: 1440px;
 }
 .main-cont {
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
+    width: 1440px;
+    margin: 0 ;
     padding: 0;
     text-align: center;
 }
@@ -26,6 +25,9 @@ body{
 .header-main{
     font-family: "BebasNeueBold";
     position: relative;
+    margin: 0;
+    width: 100%;
+    height: 770px;
    
 }
 .text{
@@ -36,6 +38,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     color: #FFFFFF;
+    width: 900px;
 }
 .text2{
     font-family: "Open Sans", sans-serif;
@@ -53,7 +56,7 @@ body{
     font-weight: Semibold;
     position: absolute;
     top: 90%;
-    left: 680px;
+    left: 720px;
     transform: translate(-50%, -50%);
     color:#FFFFFF ;
     letter-spacing: 3px;
@@ -61,23 +64,64 @@ body{
 }
 
 .header-accent{
-    letter-spacing: 5.72px;
+    letter-spacing: 5.60px;
 }
 .img1{
-    width: 1369.4px;
+    width: 100%;
 
 }
 .inner-image{
     position: absolute;
     top: 30px;
-    right: 630px;
+    right: 665px;
 }
+
+/* Navbar container */
+.navbar-main{
+    padding: 0 249px;
+    height: 58px;
+    width: 1440;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    border-color: #E6E6E6;
+    text-align: center;
+    align-items: center;
+}
+.navbar-cont{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    margin-top: ;
+}
+.navbar-img{
+    display: flex;
+    height: 18px;
+    margin-top: 19px;
+}
+.navbar-table{
+    text-transform: uppercase;
+    display: flex;
+    margin-top: 19px;
+    
+
+}
+.navbar-table thead td{
+    letter-spacing: 1.09px;
+    font-size: 12px;
+}
+.navbar-table>thead>tr>td{
+    padding-right: 40px;
+}
+
+
+
 
 
 
 /* About-conteiner */
 .about-main{
-    margin-left: 205px;
+    margin: 0 249px;
     width: 942px;
     height: 344px;
     padding: 0;
