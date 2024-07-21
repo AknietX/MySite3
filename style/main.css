@@ -12,11 +12,6 @@
     }
 }
 /* Разширение экрана болеее 1440px */
-@media (min-width: 1441px) {
-    body {
-      padding-left: 300px; /* Добавляем отступ слева */
-    }
-  }
 
 
 /* Основной блок */
@@ -38,7 +33,7 @@ body{
     font-family: "BebasNeueBold";
     position: relative;
     margin: 0;
-    width: 100%;
+    max-width: 1440px;
     height: 770px;
     text-align: center;
    
@@ -253,7 +248,9 @@ body{
     text-align: center;
     text-transform: uppercase;
     font-size: 13px;
+    font-weight: bold;
     padding-top: 10px;
+
     
 }
 .services-title2{
@@ -340,17 +337,6 @@ body{
 }
 
 /* touch-conteiner */
-
-
-
-
-
-
-
-
-
-
-
 .touch-img-cont{
     position: relative;
     text-align: center;
@@ -382,4 +368,97 @@ body{
     position: absolute;
     top: 52%;
     left: 45%;
+}
+
+
+/* touch-conteiner */
+.touch-img-cont{
+    position: relative;
+    text-align: center;
+    height: 498px;
+}
+.touch-text{
+    font-family: "Open Sans", sans-serif;
+    color: #48555B;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.15px;
+    white-space: pre-line;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.touch-text2{
+    text-transform: uppercase;
+    height: 30px;
+    width: 160px;
+    background-color: #00A4E5;
+    padding-top: 12.5px;
+    font-size: 13px;
+    color: #FFFFFF;
+    
+    letter-spacing: 0.8px;
+    position: absolute;
+    top: 52%;
+    left: 45%;
+}
+
+
+/* sletter conteiner */
+.sletter-main-cont{
+    font-family: "Open Sans", sans-serif;
+    height: 90px;
+    max-width: 1440px;
+    
+    background-color: #171819;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 300px;
+}
+.sletter-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 800px;
+}
+.sletter-text{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    letter-spacing: 0.85px;
+    margin: 35px;
+    white-space: pre-line;
+}
+.sletter-cell{
+    margin-left: 40px;
+    height: 40px;
+    width: 250px;
+    background-color: #FFFFFF;
+}
+.sletter-button{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    width: 105px;
+    background-color: #00A4E5;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding-left: 55px;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    transition: padding-left 0.3s, padding-right 0.3s;
+}
+.main-cont{
+    max-width: 1440px; /* Максимальная ширина контента */
+    margin: 0 auto;
+    padding: 20px;
 }

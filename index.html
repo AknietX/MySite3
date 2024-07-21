@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style/main.css">
 </head>
 
-<body>
+<body class="post">
 
 
 <div class="main-cont">
@@ -163,15 +163,75 @@
 
 
 </div>
+<div class="footer-cont">
 
-<div class="touch-main">
-    <div class="touch-img-cont">
-        <img src="images/sg.png" alt="">
-        <div class="touch-text">Want to build 
-                            something amazing?</div>
-        <div class="touch-text2">get in touch</div>
+
+
+
+
+    
+    <div class="touch-main">
+        <div class="touch-img-cont">
+            <img src="images/sg.png" alt="">
+            <div class="touch-text">Want to build 
+                                something amazing?</div>
+            <div class="touch-text2">get in touch</div>
+        </div>
     </div>
-</div>
+
+
+    <div class="sletter-main-cont">
+
+        <div class="sletter-content">
+            <div class="sletter-text">Newsletter Singup</div>
+            <div class="sletter-cell"></div>
+            <div class="sletter-button">SINGUP</div>
+
+        </div>
+
+
+    </div>
+
+
+
+</div>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    function adjustPadding() {
+        let screenWidth = window.innerWidth;
+        let minWidth = 1440; 
+        let paddingLeft = 0;
+        let paddingRight = 0;
+
+        if (screenWidth > minWidth) {
+            let extraSpace = screenWidth - minWidth;
+            paddingLeft = extraSpace / 2;
+            paddingRight = paddingLeft;
+        }
+
+        document.body.style.paddingLeft = paddingLeft + 'px';
+        document.body.style.paddingRight = paddingRight + 'px';
+    }
+
+    window.onload = adjustPadding;
+    window.onresize = adjustPadding;
+</script>
+
 
 
 
