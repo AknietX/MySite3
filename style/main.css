@@ -345,9 +345,6 @@ body{
     position: relative;
     text-align: center;
 }
-
-
-
 .touch-text{
     font-family: "Open Sans", sans-serif;
     color: #48555B;
@@ -379,7 +376,7 @@ body{
 .touch-img-cont{
     position: relative;
     text-align: center;
-    height: 498px;
+    height: 497px;
 }
 .touch-text{
     font-family: "Open Sans", sans-serif;
@@ -409,15 +406,17 @@ body{
 
 
 /* sletter conteiner */
+.sletter-main{
+    height: 99px;
+}
 .sletter-main-cont{
     font-family: "Open Sans", sans-serif;
-    height: 90px;
+    height: 100px;
     max-width: 1440px;
-    
     background-color: #171819;
     align-items: center;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 300px;
 }
 .sletter-content{
@@ -426,6 +425,7 @@ body{
     align-items: center;
     height: 40px;
     width: 800px;
+    margin-bottom: 20px;
 }
 .sletter-text{
     font-size: 24px;
@@ -436,10 +436,15 @@ body{
     white-space: pre-line;
 }
 .sletter-cell{
+    display: flex;
+    text-align: center;
     margin-left: 40px;
     height: 40px;
     width: 250px;
     background-color: #FFFFFF;
+    padding-left: 20px;
+
+
 }
 .sletter-button{
     display: flex;
@@ -455,4 +460,114 @@ body{
     padding-left: 55px;
 
 }
+.sletter-input{
+    border: none;
+}
 
+/* finite-conteiner */
+
+.finite-main{
+    height: 300px;
+    font-family: "Open Sans", sans-serif;
+}
+.finite-cont{
+    height: 238px;
+}
+.finite-cont2{
+    display: flex;
+    background-color: #141A20;
+    padding: 20px 249px;
+    height: 240px;
+}
+.finite-table1{
+    height: 148px;
+    width: 250px;
+    font-size: 11px;
+    font-weight: regular;
+    color: #FFFFFF;
+    letter-spacing: 0.85px;
+    white-space: pre-line;
+}
+.finite-table2{
+    height: 150px;
+    width: 110px;
+    font-size: 11px;
+    font-weight: regular;
+    color: #FFFFFF;
+    letter-spacing: 0.85px;
+    white-space: pre-line;
+    margin-left: 50px;
+}
+.finite-table3{
+    margin-left: 10px;
+    margin-top: 75px;
+    height: 158px;
+    width: 70px;
+}
+.finite-table4{
+    margin-top: 80px;
+    margin-left: 15px;
+    height: 75px;
+    width: 62px;
+}
+.finite-table5{
+    margin-left: 65px;
+    height: 158px;
+    width: 141px;
+    color: #FFFFFF;
+}
+.finite-table6{
+    margin-top: 70px;
+    margin-left: 80px;
+    height: 13px;
+    width: 87px;
+}
+
+.finite-text1{
+    font-size: 11px;
+    font-weight: 19px;
+    color: #FFFFFF;
+}
+.finite-table2>p{
+    margin: 0;
+    font-size: 11px;
+    font-weight: 25px;
+    color: #FFFFFF;
+    letter-spacing: 0.85px;
+}
+.finite-table3>p{
+    font-size: 11px;
+    font-weight: 25px;
+    color: #FFFFFF;
+    letter-spacing: 0.85px;
+}
+.finite-table4>p{
+    font-size: 11px;
+    font-weight: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0.85px;
+}
+.finite-table5>p{
+    font-size: 11px;
+    font-weight: regular;
+    color: #FFFFFF;
+    letter-spacing: 0.85px;
+    white-space: pre-line;
+}
+.finite-table5>h3{
+    margin-bottom: 27px;
+}
+
+.finite-footer{
+    height: 60px;
+    background-color: #171819;
+    text-align: center;
+    padding-top: 20px;
+}
+.end{
+    font-size: 11px;
+    letter-spacing: 0.85px;
+    color: #FFFFFF;
+    
+}
+}
