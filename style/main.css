@@ -5,12 +5,24 @@
         flex-wrap: wrap;
     }
 }
+/* Разширение экрана менее 1440px */
+@media (max-width: 1440px) {
+    body {
+      padding-left: 0;
+    }
+}
+/* Разширение экрана болеее 1440px */
+@media (min-width: 1441px) {
+    body {
+      padding-left: 300px; /* Добавляем отступ слева */
+    }
+  }
 
 
 /* Основной блок */
 body{
     margin: 0;
-    max-width: 1440px;
+    
 }
 .main-cont {
     width: 1440px;
@@ -137,6 +149,7 @@ body{
 }
 .about-title1{
     text-align: center;
+    color: #48555B;
 }
 .about-title2{
     height: 2px;
@@ -253,4 +266,74 @@ body{
     font-size: 18px;
     letter-spacing: 2.31px;
     color: #48555B;       
+}
+.services-table-cont{
+    display: flex;
+    margin-top: 80px;
+}
+.services-table1{
+    height: 250px;
+    width: 305px;
+    white-space: pre-line;
+    font-size: 16px;
+    letter-spacing: 0.43px;
+    border-style: solid;
+    border-color: #E6E6E6;
+    border-width: 0.5px;
+    padding: 30px 20px; 
+}
+.services-table2{
+   height: 250px;
+    width: 295px;
+    border-style: solid;
+    border-color: #E6E6E6;
+    border-width: 0.5px;
+    padding: 30px 20px; 
+    margin-left: 30px;
+}
+.services-table3{
+    height: 250px;
+    width: 295px;
+    border-style: solid;
+    border-color: #E6E6E6;
+    border-width: 0.5px;
+    padding: 30px 20px; 
+    margin-left: 30px;
+
+}
+/* <h3> */
+.services-table1>h3{
+    letter-spacing: 0.43px;
+    color: #48555B;
+    font-size: 16px;
+    text-transform: uppercase;
+    white-space: pre-line;
+    margin-bottom: 0;
+}
+.services-table2>h3{
+    letter-spacing: 0.43px;
+    color: #48555B;
+    font-size: 16px;
+}
+.services-table3>h3{
+    letter-spacing: 0.43px;
+    color: #48555B;
+    font-size: 16px;
+}
+/* <p> */
+.services-table1>p{
+    letter-spacing: 0.19px;
+    color: #48555B;
+    font-size: 13px;
+    margin-top: 0;
+}
+.services-table2>p{
+    letter-spacing: 0.19px;
+    color: #48555B;
+    font-size: 13px;
+}
+.services-table3>p{
+    letter-spacing: 0.19px;
+    color: #48555B;
+    font-size: 13px;
 }
