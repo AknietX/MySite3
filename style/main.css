@@ -5,15 +5,17 @@
         flex-wrap: wrap;
     }
 }
-/* Разширение экрана менее 1440px */
-@media (max-width: 1440px) {
-    body {
-      padding-left: 0;
-    }
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    transition: padding-left 0.3s, padding-right 0.3s;
 }
-/* Разширение экрана болеее 1440px */
-
-
+.main-cont{
+    max-width: 1440px; /* Максимальная ширина контента */
+    margin: 0 auto;
+    padding: 20px;
+}
 /* Основной блок */
 body{
     margin: 0;
@@ -25,7 +27,9 @@ body{
     padding: 0;
     align-items: center;
 }
-
+.main{
+    background-color: #FFFFFF;
+}
 
 /* Header-conteiner */
 
@@ -451,14 +455,4 @@ body{
     padding-left: 55px;
 
 }
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-    transition: padding-left 0.3s, padding-right 0.3s;
-}
-.main-cont{
-    max-width: 1440px; /* Максимальная ширина контента */
-    margin: 0 auto;
-    padding: 20px;
-}
+

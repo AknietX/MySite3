@@ -6,156 +6,194 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style/main.css">
+
+    <script>
+        function adjustPadding() {
+            let screenWidth = window.innerWidth;
+            let minWidth = 1440; 
+            let paddingLeft = 0;
+            let paddingRight = 0;
+    
+            if (screenWidth > minWidth) {
+                let extraSpace = screenWidth - minWidth;
+                paddingLeft = extraSpace / 2;
+                paddingRight = paddingLeft;
+            }
+    
+            document.body.style.paddingLeft = paddingLeft + 'px';
+            document.body.style.paddingRight = paddingRight + 'px';
+        }
+    
+        window.onload = adjustPadding;
+        window.onresize = adjustPadding;
+    </script>
+
 </head>
 
-<body class="post">
+<body>
+
+<div class="main">
 
 
-<div class="main-cont">
 
 
-    <div class="header-main">
-        <img src="images/bg.png" alt="Изображение" class="img1">
-        <div class="text"><span class="header-accent">Partner with constuct</span></div>
-        <div class="text2">An award-winning construction managerement firm</div>
-        <div class="text3">Scroll down</div>
-        <img src="images/projeco-logo.png" alt="Второе изображение" class="inner-image">
-      </div> 
+
+
+
+
+    <div class="main-cont">
     
     
-    <div class="navbar-main">
+        <div class="header-main">
+            <img src="images/bg.png" alt="Изображение" class="img1">
+            <div class="text"><span class="header-accent">Partner with constuct</span></div>
+            <div class="text2">An award-winning construction managerement firm</div>
+            <div class="text3">Scroll down</div>
+            <img src="images/projeco-logo.png" alt="Второе изображение" class="inner-image">
+          </div> 
         
-
-        <div class="navbar-cont">
-
+        
+        <div class="navbar-main">
             
-            <div class="navbar-img">
-                <img src="images/projeco-logo-black.png" alt="img">
+    
+            <div class="navbar-cont">
+    
+                
+                <div class="navbar-img">
+                    <img src="images/projeco-logo-black.png" alt="img">
+                </div>
+        
+    
+                <div class="navbar-table-cont">
+                    <table class="navbar-table">
+        
+                        <thead>
+                            <td>Home</td>
+                            <td><span class="navbar-accent">About</span></td>
+                            <td>Services</td>
+                            <td>Work</td>
+                            <td>Contact</td>
+                        </thead>
+                        
+                    </table>
+                </div>
+    
             </div>
     
-
-            <div class="navbar-table-cont">
-                <table class="navbar-table">
     
-                    <thead>
-                        <td>Home</td>
-                        <td><span class="navbar-accent">About</span></td>
-                        <td>Services</td>
-                        <td>Work</td>
-                        <td>Contact</td>
-                    </thead>
+        </div>
+    
+    
+        <div class="about-main">
+            <h2 class="about-title1">OUR STORY</h2>
+            <div class="about-title2"></div>
+    
+    
+            <div class="port-side">
+    
+    
+                <div class="about-text">
+    
                     
-                </table>
-            </div>
-
-        </div>
-
-
-    </div>
-
-
-    <div class="about-main">
-        <h2 class="about-title1">OUR STORY</h2>
-        <div class="about-title2"></div>
-
-
-        <div class="port-side">
-
-
-            <div class="about-text">
-
+                        <h3 class="about-text1"> Founded in 2011 by John Martew Smith,
+                        <span class="accent-color">Konstruct</span> has become the number one
+                        <span class="accent-left">construction managerement firm           </span>  </h3>
                 
-                    <h3 class="about-text1"> Founded in 2011 by John Martew Smith,
-                    <span class="accent-color">Konstruct</span> has become the number one
-                    <span class="accent-left">construction managerement firm           </span>  </h3>
-            
-
+    
+                    
+                    <p class="about-text2">
+                        <span class="accent-left1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed                         </span>
+                        <span class="accent-left2">diam nonummy nibh euismod tincidunt ut laoreet dolore magna                           </span>
+                        <span class="accent-left3">aliquam erat. Lorem ipsum dolor sit amet, consectetuer                                </span>
+                        <span class="accent-left4">adipiscing elir, sed diam nonummy nibh euismod tincidunt ut                           </span>
+                        <span class="accent-left5">laoreet dolore magna aliquam erat.                                                           </span>
+                    </p>
                 
-                <p class="about-text2">
-                    <span class="accent-left1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed                         </span>
-                    <span class="accent-left2">diam nonummy nibh euismod tincidunt ut laoreet dolore magna                           </span>
-                    <span class="accent-left3">aliquam erat. Lorem ipsum dolor sit amet, consectetuer                                </span>
-                    <span class="accent-left4">adipiscing elir, sed diam nonummy nibh euismod tincidunt ut                           </span>
-                    <span class="accent-left5">laoreet dolore magna aliquam erat.                                                           </span>
-                </p>
-            
-
-            </div>
-
-
-            <div class="about-img">
-
-                <div class="about-img2">
-                        <img src="images/deliver.png" alt="img" class="about-img1-1">
-                        <img src="images/manage.png" alt="img" class="about-img2-2">
-                        <img src="images/plan.png" alt="img" class="about-img3-3">
-                </div>
-
-            </div>
-
-
-        </div>
-
-
-    </div>
-
-    <div class="services-main">
-
-
-
-        <div class="services-cont">
-
-
-
-            <div class="services-header">
-
-                <div class="services-header2">
-
-                    <h3>OUR CAPABALITIES</h3>
-                    <div class="services-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam 
-                        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</div>
-                    <div class="services-text2">All services</button>
     
                 </div>
-
+    
+    
+                <div class="about-img">
+    
+                    <div class="about-img2">
+                            <img src="images/deliver.png" alt="img" class="about-img1-1">
+                            <img src="images/manage.png" alt="img" class="about-img2-2">
+                            <img src="images/plan.png" alt="img" class="about-img3-3">
+                    </div>
+    
+                </div>
+    
+    
             </div>
-
-
-
-            <div class="services-title2"></div>   
-
-
+    
+    
         </div>
-
+    
+        <div class="services-main">
+    
+    
+    
+            <div class="services-cont">
+    
+    
+    
+                <div class="services-header">
+    
+                    <div class="services-header2">
+    
+                        <h3>OUR CAPABALITIES</h3>
+                        <div class="services-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam 
+                            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</div>
+                        <div class="services-text2">All services</button>
         
-        <div class="services-table-cont">
-            <div class="services-table1"><img src="images/Bitmap.png" alt="img">
-                <h3>Progect and construction
-                     managerement</h3>
-                <p>Lorem ipsum dolor sit amet, 
-                    consectetuer adipiscing elit, sed diam 
-                    nonummy nibh euismod tincidunt ut 
-                    laoreet dolore magna aliquam erat.</p>
+                    </div>
+    
+                </div>
+    
+    
+    
+                <div class="services-title2"></div>   
+    
+    
             </div>
-            <div class="services-table2"><img src="images/Bitmap (1).png" alt="img">
-                <h3>STRUCTURE AUDIT AND MAINTENANCE</h3>
-                <p>Lorem ipsum dolor sit amet, 
-                    consectetuer adipiscing elit, sed diam 
-                    nonummy nibh euismod tincidunt ut 
-                    laoreet dolore magna aliquam erat.</p>
+    
+            
+            <div class="services-table-cont">
+                <div class="services-table1"><img src="images/Bitmap.png" alt="img">
+                    <h3>Progect and construction
+                         managerement</h3>
+                    <p>Lorem ipsum dolor sit amet, 
+                        consectetuer adipiscing elit, sed diam 
+                        nonummy nibh euismod tincidunt ut 
+                        laoreet dolore magna aliquam erat.</p>
+                </div>
+                <div class="services-table2"><img src="images/Bitmap (1).png" alt="img">
+                    <h3>STRUCTURE AUDIT AND MAINTENANCE</h3>
+                    <p>Lorem ipsum dolor sit amet, 
+                        consectetuer adipiscing elit, sed diam 
+                        nonummy nibh euismod tincidunt ut 
+                        laoreet dolore magna aliquam erat.</p>
+                </div>
+                <div class="services-table3"><img src="images/Bitmap (2).png" alt="img">
+                    <h3>FACTORY CONSTRUCTION AND MODELING</h3>
+                    <p>Lorem ipsum dolor sit amet, 
+                        consectetuer adipiscing elit, sed diam 
+                        nonummy nibh euismod tincidunt ut 
+                        laoreet dolore magna aliquam erat.</p>
+                </div>
             </div>
-            <div class="services-table3"><img src="images/Bitmap (2).png" alt="img">
-                <h3>FACTORY CONSTRUCTION AND MODELING</h3>
-                <p>Lorem ipsum dolor sit amet, 
-                    consectetuer adipiscing elit, sed diam 
-                    nonummy nibh euismod tincidunt ut 
-                    laoreet dolore magna aliquam erat.</p>
-            </div>
+    
+    
+    
         </div>
 
 
 
-    </div>
+
+
+
+
+</div>
 
    
 
@@ -208,29 +246,6 @@
 
 
 
-
-
-
-<script>
-    function adjustPadding() {
-        let screenWidth = window.innerWidth;
-        let minWidth = 1440; 
-        let paddingLeft = 0;
-        let paddingRight = 0;
-
-        if (screenWidth > minWidth) {
-            let extraSpace = screenWidth - minWidth;
-            paddingLeft = extraSpace / 2;
-            paddingRight = paddingLeft;
-        }
-
-        document.body.style.paddingLeft = paddingLeft + 'px';
-        document.body.style.paddingRight = paddingRight + 'px';
-    }
-
-    window.onload = adjustPadding;
-    window.onresize = adjustPadding;
-</script>
 
 
 
